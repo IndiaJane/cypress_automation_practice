@@ -1,0 +1,5 @@
+node_modules/
+package-lock.json
+cypress/e2e/examples/
+cypress/e2e/swag/
+cypress/e2e/jqueryui/
