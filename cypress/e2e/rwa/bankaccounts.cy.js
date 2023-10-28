@@ -2,7 +2,7 @@
 describe('bank account tests', () => {
     beforeEach(() => {
         //visit and run this website before each test
-        cy.visit('http://173.216.121.92:3000/signin')
+        cy.visit('http://localhost:3000/signin')
         cy.login('Katharina_Bernier')
         cy.dataTest('sidenav-bankaccounts').click()
         cy.url().should('include', '/bankaccount')
